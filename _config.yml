@@ -20,13 +20,14 @@ title                    : "Heydari, M.S."
 title_separator          : "|"
 subtitle                 : "Personal Website"
 name                     : "Mohammad Sadra Heydari"
-description              : "Computer Engineering Student @ Sharif University of Technology"
+description              : "Personal website of Mohammad Sadra Heydari"
 url                      : "https://sadraheydari.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/sadraheydari/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sadraheydari/sadraheydari.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/pic1.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : #"/assets/logo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# show_date                : true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -58,7 +59,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true #, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -79,7 +80,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "https://twitter.com/heydari_msadra"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -108,15 +109,15 @@ author:
   location         : 
   email            : "heydari.msadragmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:heydari.msadra@email.com"
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:heydari.msadra@email.com"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/heydari_msadra"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/heydari_msadra"
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -288,3 +289,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
